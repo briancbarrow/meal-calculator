@@ -1,0 +1,28 @@
+{
+  "name": "meal_calculator",
+  "version": "1.0.0",
+  "description": "A meal cost calculator",
+  "main": "meal_calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/briancbarrow/meal-calculator.git"
+  },
+  "keywords": [
+    "meal",
+    "calculator",
+    "food"
+  ],
+  "author": "Brian Barrow",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^2.7.1",
+    "less-plugin-clean-css": "^1.5.1",
+    "webpack": "^1.13.2"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
