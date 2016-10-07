@@ -14,12 +14,12 @@ var Diner = function(name, dishes) {
     };
     this.getTax = function() {
         var total = this.getTotal();
-        var tax = total * 0.09;
-        return tax;
+        var tax = (total * 0.09).toFixed(2);
+        return +tax;
     };
     this.getTip = function() {
         var total = this.getTotal();
-        var tip = total * 0.15;
+        var tip = Math.ceil(total * 0.15);
         return tip;
     }
 };
